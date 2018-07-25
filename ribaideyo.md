@@ -26,7 +26,7 @@
 >			response.content/text/json()--查看响应体
 >			response.cookies['key']--获取cookie值
 
-### asyncio：
+### asyncio：https://github.com/aio-libs/aiohttp
 
 
 ### gevent:
@@ -242,6 +242,15 @@
 		重点问题：crontab 无法获取环境变量，所以在python中如果设置了环境变量会出现导入错误。
 		在crontab定时任务的命令前面加上 source ~/.bash_profile  应该可以解决这个问题
 		
+### centos 上配置环境以及部署 
+1.   https://www.digitalocean.com/community/tutorials/how-to-serve-flask-applications-with-uwsgi-and-nginx-on-centos-7
+
+2.   https://www.digitalocean.com/community/tutorials/how-to-serve-flask-applications-with-gunicorn-and-nginx-on-centos-7
+
+3.   https://www.digitalocean.com/community/tutorials/how-to-install-python-3-and-set-up-a-local-programming-environment-on-centos-7
+### python 相关网站
+1. 一个关于大牛的python规范：https://docs.python-guide.org/
+
 
 
 
